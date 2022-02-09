@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(253, 210, 217, 0.938);
+}
+
+input {
+  color: rgb(250, 108, 108);
+  padding: 12px;
+  outline: none;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input:hover {
+  filter: brightness(1.25);
+  box-shadow: inset 1px 1px 5px 2px rgba(0, 0, 0, 0.25);
+
+}
+
+.visor-panel {
+  width: 100%;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.visor {
+  flex: 2;
+}
+
+.num {
+  width: 64px;
+  height: 67px;
+}
+
+.text1 {
+  width: 24px;
+  height: 26px;
+  border-radius: 50%;
+  letter-spacing: 5px;
+  text-align: left;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.text {
+  width: 160px;
+  height: 26px;
+  border-radius: 22px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+main {
+  display: inline-block;
+}
+
+form {
+  background-color: #f3c9c9c4;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 4px 5px 5px 2px rgba(0, 0, 0, 0.30);
+}
+
+.main_color {
+  background-color: rgb(248, 242, 242);
+  margin: 5px;
+}
+
+.pink {
+  color: #fff;
+  background-color: rgb(250, 108, 108);
+}
+
+
+
+
+
